@@ -50,6 +50,12 @@ katsayısı) üzerinden yürütülmüştür. Bireysel isimler yalnızca kamuya a
 resmi ders programı belgelerinde zaten yer aldığı ölçüde ve doğrulama
 amacıyla kullanılmıştır.
 
+## Lisans
+
+Hibrit lisanslama kullanılmıştır:
+- **Kod** (`scripts/`) → [MIT](LICENSE)
+- **Veri, analiz metni, sonuçlar, PDF/Word çıktıları** → [CC BY 4.0](LICENSE-CONTENT.md)
+
 ---
 **Yazar:** Prof. Dr. Ali Osman Öncel — İstanbul Üniversitesi-Cerrahpaşa,
 Jeofizik Mühendisliği Bölümü
