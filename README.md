@@ -2,6 +2,10 @@
 
 `Python` · `MIT License` · `CC BY 4.0` · `Open Science` · `Reproducible Research`
 
+**Sürüm:** v1.0
+**Son güncelleme:** 14 Temmuz 2026
+**Durum:** İlk kamuya açık sürüm
+
 İstanbul Üniversitesi-Cerrahpaşa, Jeofizik Mühendisliği Bölümü'nün 2025-2026
 eğitim-öğretim yılı ders yükü dağılımına ilişkin istatistiksel analiz.
 Bu depo, [Ders Yükü Dengesi: Resmî Veriler Işığında Bir İnceleme](https://aliosmanoncel.blogspot.com/p/teaching-load-balance.html)
@@ -9,31 +13,46 @@ başlıklı yazının metodoloji ve kaynak kod kısmıdır ([kısa özet/teaser 
 Bu çalışma, Ocak 2025'te yayımlanan [Ders Yükü Dağılımındaki Eşitsizlikler](https://aliosmanoncel.blogspot.com/2025/01/education.html)
 başlıklı ilk incelemenin güncellenmiş ve genişletilmiş sürümüne dayanmaktadır.
 
-## Bu depoda ne var
+## Depo Yapısı
 
-- **`scripts/`** — Analiz için yazılan 5 Python script'i (openpyxl tabanlı).
-  Her script kendi dosya başında veri kaynağı, doğrulama durumu ve
-  yöntemsel kısıtları belgeler.
-- **`sonuclar/`** — Script'lerin 14.07.2026 tarihli çalıştırılmasından
-  elde edilen sabit (statik) çıktılar.
-- **`data/Jeofizik_Ders_Yuku_Dagilimi.xlsx`** — Analizde kullanılan veri
-  seti. Bu veri seti, 13.07.2026 tarihinde Doç. Dr. Savaş Karabulut
-  tarafından bölüm e-posta listesi ve X (Twitter) üzerinden kamuya açık
-  olarak paylaşılmıştır. Bu depodaki script'ler bu veri seti üzerinde
-  çalışacak şekilde hazırlanmıştır. Analizin yeniden üretilebilirliğini
-  desteklemek amacıyla veri seti bu depoda da yer almaktadır.
-- **`Dogrulama-Metodolojisi-ve-Sonuc.txt`** — Ders yükü verisinin, bölümün
-  kendi resmi web sitesinde yayınlanan imzalı ders programlarıyla nasıl
-  bağımsız olarak doğrulandığının özeti.
-- **`requirements.txt`** — Script'lerin çalışması için gereken Python
-  paketleri (`pip install -r requirements.txt`).
-- **`CITATION.cff`** — Bu çalışmaya akademik atıf yapmak için gereken
-  bilgiler (GitHub'ın "Cite this repository" özelliğini etkinleştirir).
+| Dizin / Dosya | Açıklama |
+|---|---|
+| `scripts/` | Python analiz script'leri (5 dosya, openpyxl tabanlı) |
+| `data/` | Analizde kullanılan veri seti (`Jeofizik_Ders_Yuku_Dagilimi.xlsx`) |
+| `sonuclar/` | Script'lerin 14.07.2026 tarihli çalıştırılmasından elde edilen statik çıktılar |
+| `Dogrulama-Metodolojisi-ve-Sonuc.txt` | Doğrulama süreci ve sonucu |
+| `requirements.txt` | Python bağımlılıkları |
+| `CITATION.cff` | Akademik atıf bilgileri |
+| `LICENSE` / `LICENSE-CONTENT.md` | Hibrit lisans (kod / veri-metin) |
+
+Veri seti (`data/Jeofizik_Ders_Yuku_Dagilimi.xlsx`), 13.07.2026 tarihinde
+Doç. Dr. Savaş Karabulut tarafından bölüm e-posta listesi ve X (Twitter)
+üzerinden kamuya açık olarak paylaşılmıştır. Bu depodaki script'ler bu
+veri seti üzerinde çalışacak şekilde hazırlanmıştır; analizin yeniden
+üretilebilirliğini desteklemek amacıyla veri seti bu depoda da yer
+almaktadır.
 
 Not: Bu depo yalnızca kaynak kod, veri ve doğrulama belgelerini içerir.
 Konuyla ilgili blog yazıları burada değil, doğrudan
 [aliosmanoncel.blogspot.com](https://aliosmanoncel.blogspot.com) üzerinde
 yayınlanmaktadır.
+
+## Hızlı Başlangıç
+
+Gereksinim: **Python ≥ 3.11**
+
+```bash
+git clone https://github.com/aliosmanoncel/teaching-load-balance-analysis.git
+cd teaching-load-balance-analysis
+pip install -r requirements.txt
+cd scripts
+python zorunlu_dersi_olmayanlar.py
+```
+
+⚠️ Script'ler `../data/Jeofizik_Ders_Yuku_Dagilimi.xlsx` göreli yolunu
+kullanır; bu nedenle **`scripts/` dizini içinden** çalıştırılmalıdır,
+depo kök dizininden değil. Diğer script'ler de aynı şekilde çalışır ve
+konsola sonuç yazdırır (bkz. `sonuclar/` içindeki örnek çıktılar).
 
 ## Bu depoda yer almayan belgeler
 
@@ -58,6 +77,12 @@ minimum–maksimum, değişim katsayısı) üzerinden yürütülmüştür. Kişi
 adları yalnızca kamuya açık resmî ders programlarında yer aldığı
 ölçüde ve doğrulama amacıyla kullanılmıştır.
 
+## Sınırlılıklar
+
+Bu analiz yalnızca kamuya açık ders programlarına dayanmaktadır. Ders
+görevlendirmelerinin idari gerekçeleri, uzmanlık alanları veya kurum
+içi karar süreçleri bu deponun kapsamı dışındadır.
+
 ## Lisans
 
 Hibrit lisanslama kullanılmıştır:
@@ -78,6 +103,15 @@ belgelemek amacıyla hazırlanmıştır.
 Öneriler, hata bildirimleri ve metodolojiye ilişkin katkılar
 [GitHub Issues](https://github.com/aliosmanoncel/teaching-load-balance-analysis/issues)
 bölümü üzerinden paylaşılabilir.
+
+> **Açık Bilim İlkesi**
+> Bu çalışma, şeffaflık, doğrulanabilirlik ve yeniden üretilebilirlik
+> ilkeleri doğrultusunda hazırlanmıştır. Kodlar, veri ve metodoloji
+> mümkün olan en geniş ölçüde açık olarak paylaşılmıştır.
+
+> **Sorumluluk Reddi**
+> Bu depoda yer alan analiz ve değerlendirmeler yazara aittir. Kurumsal
+> bir görüş veya resmî açıklama niteliği taşımaz.
 
 ## Atıf (Citation)
 
