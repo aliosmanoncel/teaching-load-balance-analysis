@@ -2,7 +2,7 @@
 Jeofizik Ders Yuku Dagilimi - Zorunlu dersi olmayan ogretim uyelerini bulur.
 
 !!! VERI DOGRULAMA NOTU (14.07.2026 itibariyle guncellendi) !!!
-Bu Excel tablosu Doc. Dr. Savas Karabulut tarafindan derlenmistir. Bolum
+Bu Excel tablosu, 13.07.2026 tarihinde Doc. Dr. Savas Karabulut tarafindan bolum e-posta listesi ve X (Twitter) uzerinden kamuya acik olarak paylasilmistir. Bolum
 Baskanligi 07.07.2026 tarihli yazisinda verinin kaynagini teyit etmedigini
 bildirmisti; ancak tablo, bolumun kendi resmi web sitesinde
 (jeofizikmuhendislik.iuc.edu.tr/tr/content/egitim/ders-programlari)

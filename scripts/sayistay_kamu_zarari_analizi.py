@@ -2,7 +2,7 @@
 Jeofizik Ders Yuku Dagilimi - Sayistay perspektifiyle "kamu zarari" riski analizi.
 
 !!! VERI DOGRULAMA NOTU (14.07.2026 itibariyle guncellendi) !!!
-Bu Excel tablosu Doc. Dr. Savas Karabulut tarafindan derlenmistir. Bolum
+Bu Excel tablosu, 13.07.2026 tarihinde Doc. Dr. Savas Karabulut tarafindan bolum e-posta listesi ve X (Twitter) uzerinden kamuya acik olarak paylasilmistir. Bolum
 Baskanligi 07.07.2026 tarihli yazisinda verinin kaynagini teyit etmedigini
 bildirmisti (ayrica kamu zarari/Sayistay konularini "bilgi edinme" kapsami
 disinda gorerek esasa girmedi); ancak tablo, bolumun kendi resmi web
