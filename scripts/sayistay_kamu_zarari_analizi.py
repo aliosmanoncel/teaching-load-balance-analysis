@@ -33,7 +33,7 @@ edilmelidir.
 """
 import openpyxl
 
-XLSX_PATH = "Jeofizik_Ders_Yuku_Dagilimi.xlsx"
+XLSX_PATH = "../data/Jeofizik_Ders_Yuku_Dagilimi.xlsx"
 ANA_TABLO = "Ana Tablo"
 ANABILIM_DALI_SHEET = "Anabim Dallarına göre"
 ASGARI_HAFTALIK_SAAT = 10  # 2547 sayili Kanun m.36 (ogretim uyesi)

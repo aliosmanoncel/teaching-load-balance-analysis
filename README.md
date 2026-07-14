@@ -12,22 +12,24 @@ başlıklı yazının metodoloji ve kaynak kod kısmıdır.
   yöntemsel kısıtları belgeler.
 - **`sonuclar/`** — Script'lerin 14.07.2026 tarihli çalıştırılmasından
   elde edilen sabit (statik) çıktılar.
+- **`data/Jeofizik_Ders_Yuku_Dagilimi.xlsx`** — Analizde kullanılan veri
+  seti. Orijinal olarak Doç. Dr. Savaş Karabulut tarafından derlenmiş ve
+  13.07.2026'da bölüm e-posta listesine + X (Twitter) üzerinden kamuya
+  gönderilmiştir (*modified after Karabulut* — bu depodaki script'ler bu
+  veri seti üzerinde çalışacak şekilde yazılmıştır). Zaten kamuya açık
+  paylaşılmış olduğu için, script'lerin çalıştırılabilir/tekrarlanabilir
+  olması adına burada da bulundurulmaktadır.
 - **`Dogrulama-Metodolojisi-ve-Sonuc.txt`** — Ders yükü verisinin, bölümün
   kendi resmi web sitesinde yayınlanan imzalı ders programlarıyla nasıl
   bağımsız olarak doğrulandığının özeti.
-- **`Ders-Yuku-Esitsizligi-Blogger-Guncel.txt`** — Yayınlanan blog
-  yazısının kaynak metni.
+
+Not: Bu depo yalnızca kaynak kod, veri ve doğrulama belgelerini içerir.
+Konuyla ilgili blog yazıları burada değil, doğrudan
+[aliosmanoncel.blogspot.com](https://aliosmanoncel.blogspot.com) üzerinde
+yayınlanmaktadır.
 
 ## Bu depoda BİLEREK bulunmayanlar
 
-- **Ham Excel veri dosyası** (`Jeofizik_Ders_Yuku_Dagilimi.xlsx`): Veri seti
-  orijinal olarak Doç. Dr. Savaş Karabulut tarafından derlenmiş ve bölüm
-  e-posta listesine gönderilmiştir (*modified after Karabulut* — bu
-  depodaki script'ler ve analiz, o veri seti üzerinde çalışacak şekilde
-  yazılmış, ancak veri seti kendisi değiştirilerek/analiz edilerek
-  kullanılmıştır). Orijinal dosya bu deponun yazarının kendi ürettiği bir
-  belge olmadığı için burada ayrıca paylaşılmamıştır; script'ler bu
-  dosyayı girdi olarak bekler ama dosyanın kendisi depoda yoktur.
 - **Kurum içi resmi yazışmalar** (Dekanlık yazıları, Bölüm Başkanlığı'nın
   üçüncü kişilere yazdığı resmi yanıtlar): Bunlar bu deponun yazarına
   değil başka taraflara adreslenmiş belgeler olduğu için dahil edilmemiştir.
