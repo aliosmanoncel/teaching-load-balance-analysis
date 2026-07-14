@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Bu çalışmaya atıf yapmak için aşağıdaki bilgileri kullanınız."
+title: "Ders Yükü Dengesi: Resmî Veriler Işığında Bir İnceleme — Jeofizik Mühendisliği Bölümü Ders Yükü Dağılımı Analizi"
+authors:
+  - family-names: "Öncel"
+    given-names: "Ali Osman"
+    affiliation: "İstanbul Üniversitesi-Cerrahpaşa, Jeofizik Mühendisliği Bölümü"
+date-released: 2026-07-14
+url: "https://github.com/aliosmanoncel/teaching-load-balance-analysis"
+repository-code: "https://github.com/aliosmanoncel/teaching-load-balance-analysis"
+license: "MIT"
+type: software
+keywords:
+  - "ders yükü dağılımı"
+  - "yükseköğretim yönetişimi"
+  - "reproducible research"
+  - "open science"
+  - "eğitim eşitliği"
+preferred-citation:
+  type: generic
+  title: "Ders Yükü Dengesi: Resmî Veriler Işığında Bir İnceleme"
+  authors:
+    - family-names: "Öncel"
+      given-names: "Ali Osman"
+  year: 2026
+  url: "https://aliosmanoncel.blogspot.com/p/teaching-load-balance.html"

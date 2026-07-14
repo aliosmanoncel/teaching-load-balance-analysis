@@ -1,8 +1,10 @@
 # Jeofizik Mühendisliği Bölümü — Ders Yükü Dağılımı Analizi
 
+`Python` · `MIT License` · `CC BY 4.0` · `Open Science` · `Reproducible Research`
+
 İstanbul Üniversitesi-Cerrahpaşa, Jeofizik Mühendisliği Bölümü'nün 2025-2026
-eğitim-öğretim yılı ders yükü dağılımındaki dengesizliğin istatistiksel
-analizi. Bu depo, [Ders Yükü Dengesi: Resmî Veriler Işığında Bir İnceleme](https://aliosmanoncel.blogspot.com/p/teaching-load-balance.html)
+eğitim-öğretim yılı ders yükü dağılımına ilişkin istatistiksel analiz.
+Bu depo, [Ders Yükü Dengesi: Resmî Veriler Işığında Bir İnceleme](https://aliosmanoncel.blogspot.com/p/teaching-load-balance.html)
 başlıklı yazının metodoloji ve kaynak kod kısmıdır ([kısa özet/teaser yazı](https://aliosmanoncel.blogspot.com/2026/07/teaching-load-balance.html) da mevcuttur).
 Bu çalışma, Ocak 2025'te yayımlanan [Ders Yükü Dağılımındaki Eşitsizlikler](https://aliosmanoncel.blogspot.com/2025/01/education.html)
 başlıklı ilk incelemenin güncellenmiş ve genişletilmiş sürümüne dayanmaktadır.
@@ -23,6 +25,10 @@ başlıklı ilk incelemenin güncellenmiş ve genişletilmiş sürümüne dayanm
 - **`Dogrulama-Metodolojisi-ve-Sonuc.txt`** — Ders yükü verisinin, bölümün
   kendi resmi web sitesinde yayınlanan imzalı ders programlarıyla nasıl
   bağımsız olarak doğrulandığının özeti.
+- **`requirements.txt`** — Script'lerin çalışması için gereken Python
+  paketleri (`pip install -r requirements.txt`).
+- **`CITATION.cff`** — Bu çalışmaya akademik atıf yapmak için gereken
+  bilgiler (GitHub'ın "Cite this repository" özelliğini etkinleştirir).
 
 Not: Bu depo yalnızca kaynak kod, veri ve doğrulama belgelerini içerir.
 Konuyla ilgili blog yazıları burada değil, doğrudan
@@ -37,7 +43,8 @@ yayınlanmaktadır.
 
 ## Yöntem özeti
 
-Ders yükü verisi, bölümün resmi web sitesinde
+Doğrulama, birbirinden bağımsız iki veri kaynağının karşılaştırılması
+esasına dayanmaktadır. Ders yükü verisi, bölümün resmi web sitesinde
 (jeofizikmuhendislik.iuc.edu.tr/tr/content/egitim/ders-programlari)
 yayınlanan ve Bölüm Başkanı tarafından imzalanmış 4 resmi ders programı
 belgesiyle (2025-2026 Güz/Bahar Lisans + Güz/Bahar Yüksek Lisans-Doktora)
@@ -46,11 +53,10 @@ satır bazında karşılaştırılarak bağımsız olarak doğrulanmıştır. De
 
 ## Veri gizliliği notu
 
-Analiz, unvan grubu ve toplu istatistikler (ortalama, min-maks, değişim
-katsayısı) üzerinden yürütülmüştür. Kişi adları yalnızca kamuya açık
-resmi ders programı belgelerinde zaten yer aldığı ölçüde ve doğrulama
-amacıyla kullanılmış; analiz ise toplu istatistikler üzerinden
-yürütülmüştür.
+Analiz, unvan grupları ve toplu istatistiksel göstergeler (ortalama,
+minimum–maksimum, değişim katsayısı) üzerinden yürütülmüştür. Kişi
+adları yalnızca kamuya açık resmî ders programlarında yer aldığı
+ölçüde ve doğrulama amacıyla kullanılmıştır.
 
 ## Lisans
 
@@ -68,6 +74,14 @@ belgeler yayımlandığında, depo ve ilgili blog yazıları güncellenebilir.
 Bu depo, blog yazısının yerine geçmez; blog yazısında yer alan
 değerlendirmelerin teknik altyapısını, veri setini ve analiz kodlarını
 belgelemek amacıyla hazırlanmıştır.
+
+Öneriler, hata bildirimleri ve metodolojiye ilişkin katkılar
+[GitHub Issues](https://github.com/aliosmanoncel/teaching-load-balance-analysis/issues)
+bölümü üzerinden paylaşılabilir.
+
+## Atıf (Citation)
+
+Bu çalışmaya atıf yapmak için bkz. [`CITATION.cff`](CITATION.cff).
 
 ---
 **Yazar:** Prof. Dr. Ali Osman Öncel — İstanbul Üniversitesi-Cerrahpaşa,
